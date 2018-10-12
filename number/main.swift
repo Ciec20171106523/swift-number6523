@@ -7,6 +7,20 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-
+var i = 0
+var j = 0
+var temp = 0
+var arry:[Int]=[10,9,8,7,6,5,4,3,2,1]
+for i in 0..<9-i
+{
+    for`  j in 0..<9-i
+    {
+        if(arry[j]>arry[j+1])
+        {
+            temp=arry[j+1]
+            arry[j+1]=arry[j]
+            arry[j]=temp
+        }
+    }
+}
+print(arry)
