@@ -13,7 +13,7 @@ var temp = 0
 var arry:[Int]=[10,9,8,7,6,5,4,3,2,1]
 for i in 0..<9-i
 {
-    for`  j in 0..<9-i
+    for  j in 0..<9-i
     {
         if(arry[j]>arry[j+1])
         {
